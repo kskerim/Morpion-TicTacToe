@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Morpion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jeu de Morpion</h1>
+        <div id="gameStatus">Au tour de : X</div>
+        <div id="gameBoard" class="game-board"></div>
+        <button id="restartButton">Recommencer</button>
+    </div>
+    <!-- Pop-up de victoire -->
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="winnerMessage"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
